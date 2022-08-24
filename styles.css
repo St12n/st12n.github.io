@@ -63,7 +63,8 @@ html {background-color: black}
 
 .active {
   background-color: #FFFFFF;
-  color: #5e9918
+  color: #5e9918;
+  font-weight: 700;
 }
 
 a {
@@ -171,4 +172,82 @@ a {
 
 .social-button img {
   margin-right: 10px;
+}
+
+/************************TOPIC**************************************/
+
+.section {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header {
+  background-color: #5e9918;
+  color: #FFFFFF;
+  flex-direction: column;
+  padding: 10px;
+}
+.section.header img {
+  margin: 20px;
+}
+
+.why {
+  background-color: #005B6C;
+  color: #FFFFFF;
+  flex-direction: column;
+  padding: 10px;
+}
+
+.info-printers {
+  background-color: #007F65;
+  color: #FFFFFF;
+  flex-direction: column;
+  padding: 10px;
+}
+
+.printers {
+  background-color: #E7F6D1;
+  color: #000000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 20px;
+}
+
+.printergrp {;
+  color: #000000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.positive-text {
+  padding: 20px 0px 10px 0px;
+}
+
+@media only screen and (min-width: 961px) {
+  .section {
+    width: 1200px;
+    margin: 0 auto;
+  }
+
+  .printers {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 10px 50px 10px 50px;
+  }
+
+  .printergrp {
+
+  }
+
 }

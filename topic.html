@@ -1,23 +1,72 @@
 <!DOCTYPE html>
 <html lang='en'>
-  <head>
-    <meta charset='UTF-8'/>
-    <title>About me</title>
-    <link rel='stylesheet' href='styles.css'/>
-  </head>
-  <body>
-    <div class="page">
-      <div class="menu-container">
-        <div class="menu">
-          <div class="links">
-            <div class="button"><a href='about-me.html'>About me</a></div>
-            <div class="button"><a href='resume.html'>Resume</a></div>
-            <div class="button active"><a href='topic.html'>Topic</a></div>
-          </div>
-          <div class="logo"><img src='pictures/logo-stino.gif' width="90"/></div>
+<head>
+  <meta charset='UTF-8'/>
+  <title>About me</title>
+  <link rel='stylesheet' href='styles.css'/>
+</head>
+<body>
+  <div class="page">
+    <div class="menu-container">
+      <div class="menu">
+        <div class="links">
+          <div class="button"><a href='about-me.html'>About me</a></div>
+          <div class="button"><a href='resume.html'>Resume</a></div>
+          <div class="button active"><a href='topic.html'>Topic</a></div>
         </div>
+        <div class="logo"><img src='pictures/logo-stino.gif' width="90"/></div>
       </div>
-      <h1>CONTENT TOPIC</h1>
     </div>
-  </body>
-</html>
+    <div class="section header">
+      <h1>My topic is:</h1>
+      <img src='pictures/ender3.png' height="200"/>
+      <h1>3D Printing</h1>
+    </div>
+    <div class="section why">
+      <h1>But why?</h1>
+      <p>I first saw a 3D printer during my Erasmus. I loved the idea to
+        print whatever you can think of. One of the things i like is that you can
+        repair stuff that otherwise would be impossible. Or, it can save you some trips to
+        IKEA for small plugs. And of course, you can print all the figures/props you want.</p>
+      </div>
+      <div class="section info-printers">
+        <h1>How does it work?</h1>
+        <p>There are 2 main categories of printers:<br> FDM (Fused Deposit Modeling)
+          and SLA (StereoLithogrAphy, or more easy: resin printing).<br> Let's see what they can do:</p>
+        </div>
+        <div class="section printers">
+          <div class="printergrp">
+            <h1>FDM Printer</h1>
+            <img src='pictures/ender3pro.jpg' height="200"/>
+            <div class="text-printer">
+              <div class="positive-text">
+                <p>+ Budget friendly compared to SLA</p>
+                <p>+ Not complex (easier supports)</p>
+                <p>+ Less post porcessing than SLA (also less risky)</p>
+              </div>
+              <div class="negative-text">
+                <p>- Difficult to print super complex shapes</p>
+                <p>- Rough surface details (layer height)</p>
+                <p>- Lots of calibration</p>
+              </div>
+            </div>
+          </div>
+          <div class="printergrp">
+            <h1>SLA Printer</h1>
+            <img src='pictures/resinprinter.jpg' height="200"/>
+            <div class="text-printer">
+              <div class="positive-text">
+                <p>+ Can print complex shapes</p>
+                <p>+ Prints great details (smooth surface)</p>
+                <p>+ Easy operation (no excessive dial in)</p>
+              </div>
+              <div class="negative-text">
+                <p>- Higher cost compared to FDM</p>
+                <p>- Needs (complexer) supports</p>
+                <p>- Not environment friendly/safe for health (resin)</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </body>
+      </html>
