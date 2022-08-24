@@ -5,15 +5,9 @@
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 }
 
-html {background-color: black}
+body {background-color: black}
 
 
-.page {
-  background-color: #FFFFFF;
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-}
 
 .menu-container {
   color: #fff;
@@ -118,29 +112,15 @@ a {
   align-items: flex-end;
 }
 
-.about-me-birthday {
+.about-me-child {
   display: flex;
   padding: 10px;
   justify-content: space-between;
   align-items: center;
 }
 
-.about-me-place {
-  display: flex;
-  padding: 10px;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.about-me-callname {
-  display: flex;
-  padding: 10px;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.label-image {
-  margin-right: 5px;
+.about-me-child img {
+  margin-right: 10px;
 }
 
 .social-banners-container {
@@ -159,19 +139,17 @@ a {
   color: #FFFFFF;
 }
 
-.social-button {
-  background-color: #ff8c00;
-  padding: 10px 10px 10px 10px;
-  margin: 20px;
-  width: 250px;
-  height: 75px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.contact-button img {
+  margin-right: 10px;
 }
 
-.social-button img {
-  margin-right: 10px;
+.contact-button {
+  display: flex;
+  justify-content: center;
+  background-color: #ff8c00;
+  width: 250px;
+  padding: 10px 0;
+  margin: 20px;
 }
 
 /************************TOPIC**************************************/
