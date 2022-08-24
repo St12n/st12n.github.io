@@ -175,14 +175,16 @@ a {
   background-color: #005B6C;
   color: #FFFFFF;
   flex-direction: column;
-  padding: 10px;
+  padding: 20px;
+  text-align: center;
 }
 
 .info-printers {
   background-color: #007F65;
   color: #FFFFFF;
   flex-direction: column;
-  padding: 10px;
+  padding: 20px;
+  text-align: center;
 }
 
 .printers {
@@ -217,7 +219,6 @@ a {
 
   .printers {
     display: flex;
-    justify-content: space-between;
     align-items: center;
     flex-direction: row;
     flex-wrap: wrap;
@@ -225,6 +226,12 @@ a {
   }
 
   .printergrp {
+    margin: 20px;
+    font-size: 1.1em;
+    width: 40%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 
   }
 
